@@ -23,12 +23,13 @@ public class StrongNoFrom1_10 {
 				int d = n%10;
 				sum = sum + factorial(d);
 				n = n/10;
-			}                                                                                                     
+			}
+			n = temp;
 			if(n == temp)
 			{
 				System.out.println("Strong no"+temp);
 			}
-			n = temp;
+		
 		}
 	}
 }

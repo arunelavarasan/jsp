@@ -1,24 +1,29 @@
+//WAP to check weather the no. is perfect no or not
 package jsp;
 
 public class PerfectNumber {
-	int i;
-	int n=100;
-	int count=0;
-	int sum=0;
-	{
-	for(i=1;i<n;i++)
-	{
-		for(int j=1;j<=i;i++)
+	public static void main(String[] args) {
+
+		int n=6;
+		int sum=0;
 		{
-			if(i%j==0)
+		for(int i=1;i<n;i++)
+		{
+			if(n%i==0)
 			{
-				count++;
-			}
-			if(sum==n)
-			{
-				System.out.print(sum);
+				sum = sum + i;
 			}
 		}
-	}
+		if(sum == n)
+		{
+			System.out.println("It is perfect no");
+		}
+		else
+		{
+			System.out.println("not a perfect no");
+		}
+	  }
 	}
 }
+//6 = 1+2+3 = 6
+//28 = 1 + 2 + 4 + 7 + 14 = 28

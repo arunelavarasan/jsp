@@ -1,4 +1,5 @@
-package NumberConversion;
+//WAP to convert octal to decimal
+package jsp;
 
 public class OctaltoDec {
 

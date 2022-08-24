@@ -14,3 +14,12 @@ public class Factors {
 		}
 	}
 }
+//number is 6 
+//6%1 = 0
+//6%2 = 0
+//6%3 = 0
+//6%3 !=0
+//6%4 !=0
+//6%5 !=0
+//6%6 = 0     
+//the factors of the numbers are 1, 2, 3, 6

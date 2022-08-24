@@ -1,5 +1,4 @@
-//WAP to convert binary to hexadecimal
-package NumberConversion;
+package jsp;
 
 public class BinToHex {
 

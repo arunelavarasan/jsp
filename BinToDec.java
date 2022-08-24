@@ -1,5 +1,5 @@
 //WAP to convert bin to decimal
-package NumberConversion;
+package jsp;
 
 public class BinToDec {
 
