@@ -1,6 +1,6 @@
 package Array;
 //WAP to find product of all the odd elements in the array 
-public class Array6 {
+public class OddElementInArray {
 
 	public static void main(String[] args) {
 		int [] a = {21, 22, 13, 3, 11};

@@ -1,6 +1,6 @@
 package Array;
 
-public class Array1 {
+public class FirstArray {
 
 	public static void main(String arg[]) {
 		int [] a = {1,3,5,7};

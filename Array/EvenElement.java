@@ -1,7 +1,7 @@
-//WAP to print odd element in the array
+//WAP to print even element in the array
 package Array;
 
-public class Array3 {
+public class EvenElement {
 
 	public static void main(String[] args) {
 		int[] a = {21,22,13,3,10};

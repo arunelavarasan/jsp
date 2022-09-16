@@ -1,6 +1,6 @@
 package Array;
 
-public class Array8{
+public class MissingValue{
 	
 	public static void main(String[] args) {
 
