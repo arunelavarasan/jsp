@@ -25,5 +25,5 @@ public class NivenNo {
 
 //logic
 //27 = 2 + 7 = 9  27/9 divisible
-//21 = 2 + 1 = 3 21/3 not divisible 
+//21 = 2 + 1 = 3 21/3 divisible 
 
