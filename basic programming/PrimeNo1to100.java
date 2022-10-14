@@ -2,19 +2,20 @@
 package jsp;
 
 public class PrimeNo1to100 {
-	int n=100;
-	int count=0;
-	{
-	for(int i=1;i<=n;i++)
-	{
-		if(n%i==0)
+	int n = 100;
+		for(int i=1;i<=n;i++)
 		{
-			count++;
+			int count=0;
+			for(int j=1;j<=n;j++)
+			{
+				if(i%j==0)
+				{
+					count++;
+				}
+			}
+			if(count==2)
+			{
+				System.out.println(i);
+			}
 		}
-		if(count==2)
-		{
-			System.out.println(i);
-		}
-	}
-	}
 }
